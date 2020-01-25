@@ -1,7 +1,3 @@
-if (typeof(module) !== 'undefined' && typeof(exports) !== 'undefined') {
-    module.exports = OAuth;
-}
-
 /**
  * Constructor
  * @param {Object} opts consumer key and secret
@@ -375,3 +371,5 @@ OAuth.prototype.sortObject = function(data) {
 
     return result;
 };
+
+export default OAuth;
